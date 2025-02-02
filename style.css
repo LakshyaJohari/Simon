@@ -1,0 +1,53 @@
+h1 {
+  font-family: "Press Start 2P";
+  color: #aa4;
+  text-align: center;
+  font-size: 300%;
+}
+#div1 {
+  display: inline-block;
+  margin: 0px 20px 20px 590px;
+  width: 10rem;
+  height: 10rem;
+  background-color: blue;
+}
+#div2 {
+  display: inline-block;
+  margin: 0px 0px 20px 0px;
+  width: 10rem;
+  height: 10rem;
+  background-color: red;
+}
+#div3 {
+  display: inline-block;
+  margin: 0px 20px 20px 590px;
+  width: 10rem;
+  height: 10rem;
+  background-color: green;
+}
+#div4 {
+  display: inline-block;
+  margin: 0px 0px 20px 0px;
+  width: 10rem;
+  height: 10rem;
+  background-color: yellow;
+}
+div {
+  border-radius: 30px;
+  border-width: 3px;
+  /* border-style: ridge; */
+}
+@keyframes high {
+  from{background-color: black;}
+  to{background-color : gray;}
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+.animate {
+  animation-name: high;
+  animation-duration: 45ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
